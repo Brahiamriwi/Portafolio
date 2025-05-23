@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('10099.png');
+  background-size: cover;
+  background-position: center;
+  color: rgb(166, 245, 248);
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h1 {
+  font-size: 24px;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px rgb(27, 110, 116);
+}
+
+.sidebar p {
+  margin: 10px 0;
+  font-size: 14px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #90caf9;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+
+.contenido {
+  background-color: rgba(0, 0, 0, 0.2);
+  flex: 1;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px black;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.proyecto {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border: 1px solid #278c99;
+  text-align: center;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.proyecto a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgb(27, 126, 121);
+}
+
+.proyecto:hover {
+  background-color: rgba(24, 108, 119, 0.3);
+}
