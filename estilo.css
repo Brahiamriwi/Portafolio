@@ -83,3 +83,12 @@ h3 {
 .proyecto:hover {
   background-color: rgba(24, 108, 119, 0.3);
 }
+
+.proyecto1{
+  display: flex; 
+  background-image: url('QR.png');
+  background-size: cover;
+  background-position: center;
+  width: 300px; 
+  height: 300px; 
+}
