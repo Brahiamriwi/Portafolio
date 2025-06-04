@@ -1,0 +1,84 @@
+
+  --- RESET CSS ---
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; 
+    vertical-align: baseline; 
+}
+
+/* Evitamos problemas con imágenes, videos, iframes y figuras */
+img, picture, video, iframe, figure {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    object-fit: cover; 
+    object-position: center center; 
+}
+
+/* Reseteamos los enlaces para funcionar como cajas */
+a {
+    display: inline-block;
+    text-decoration: none; 
+}
+
+/* Excepto los que se encuentran en párrafos (vuelven a ser inline) */
+p a {
+    display: inline;
+}
+
+/* Quitamos los puntos de las listas (<li>) */
+li {
+    list-style-type: none;
+}
+
+/* Configuramos scroll suave para anclas */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Desactivamos estilos por defecto de las principales etiquetas de texto */
+h1, h2, h3, h4, h5, h6, p, span, strong, blockquote, i, b, u, em {
+    font-size: 1em; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    text-decoration: none; 
+    color: inherit; 
+}
+
+/* Normalizamos los elementos de formulario */
+form, input, textarea, select, button, label {
+    font-family: inherit; 
+    font-size: inherit; 
+    background-color: transparent; 
+    display: block; 
+    color: inherit; 
+    appearance: none; 
+}
+
+/* Aseguramos que los botones puedan ser clickeables sin estilos extra */
+button {
+    cursor: pointer;
+    background: none;
+    padding: 0;
+}
+
+/* Reseteamos las tablas */
+table {
+    border-collapse: collapse; 
+    border-spacing: 0; 
+}
+
+/* Aseguramos que los SVGs se escalen correctamente y hereden color */
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor; /* Hereda el color de texto para el relleno del SVG */
+}
+
+/* Propiedades específicas para elementos que interactúan con el usuario */
+textarea {
+    resize: none; 
+}
