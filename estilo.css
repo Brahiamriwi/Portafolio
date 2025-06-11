@@ -119,6 +119,25 @@
   object-fit: cover;
 }
 
+.img__restaurante {
+  width: 100%;
+  height: 200px;
+  object-fit: contain !important;
+}
+
+.img__tarjetagoku {
+  width: 100% !important;
+  height: 400px !important;
+  object-fit: cover !important;
+}
+
+.img__alkosto {
+  width: 100%;
+  height: 200px;
+  object-fit: contain !important;
+}
+
+
 .contenido {
   padding: 1rem;
 }
