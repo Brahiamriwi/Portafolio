@@ -5,7 +5,7 @@
   --color-secundario: #1a1a1a;
   --color-terciario: #c12d00;
   --color-blanco: #ffffff;
-  --fondo: url('fondoportafolio.jpg') no-repeat center center/cover;
+  --fondo: url('assets/imgs/fondoportafolio.jpg') no-repeat center center/cover;
   --fuente-titulos: 'Dancing Script', cursive;
   --fuente-parrafos: 'Roboto', sans-serif;
 }
