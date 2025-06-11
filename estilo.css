@@ -101,7 +101,7 @@
 .tarjeta-proyecto {
   background: #222;
   border: 1px solid #333;
-  border-radius: 11px;
+  border-radius: 9px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
