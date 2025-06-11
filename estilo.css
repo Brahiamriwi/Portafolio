@@ -25,7 +25,6 @@
   font-size: 3.5rem;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
-
 }
 
 .boton-entrar {
@@ -46,7 +45,6 @@
   background: #fff;
   color: #000;
 }
-
 
 .menu {
   background: var(--color-terciario);
@@ -103,7 +101,7 @@
 .tarjeta-proyecto {
   background: #222;
   border: 1px solid #333;
-  border-radius: 10px;
+  border-radius: 11px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
